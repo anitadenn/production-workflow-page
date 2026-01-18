@@ -1973,7 +1973,7 @@
                             </div>
                           </div>
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Create Job card and allocate material</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Create Job card and allocate material</button>
                             
                           </div>
                         </form>
@@ -2038,163 +2038,163 @@
                           <!-- table -->
                           <!-- Bootstrap Table with Header - Dark -->
               
-                <h5 class="card-header">Quality Control</h5>
-                <div class="table-responsive text-nowrap">
-                  <table class="table">
-                    <thead class="table-dark">
-                      <tr>
-                        <th>Parameter</th>
-                        <th>Expected Value</th>
-  
-                        <th>Status</th>
-                        
-                      </tr>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td>
-                          <span>Cut Length</span>
-                        </td>
-                        <td>25cm +- 5</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
+                          <h5 class="card-header">Quality Control</h5>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table">
+                              <thead class="table-dark">
+                                <tr>
+                                  <th>Parameter</th>
+                                  <th>Expected Value</th>
+            
+                                  <th>Status</th>
+                                  
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td>
+                                    <span>Cut Length</span>
+                                  </td>
+                                  <td>25cm +- 5</td>
+                                  <td>
+                                    ✅Pass
+                                  </td>
+                                
+                                </tr>
 
-                      <tr>
-                        <td>
-                          <span>Cut Width</span>
-                        </td>
-                        <td>25cm +- 5</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
-                      
-                      <tr>
-                        <td>
-                          <span>Edge Quality</span>
-                        </td>
-                        <td>25cm +- 5</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
-                      
+                                <tr>
+                                  <td>
+                                    <span>Cut Width</span>
+                                  </td>
+                                  <td>25cm +- 5</td>
+                                  <td>
+                                    ✅Pass
+                                  </td>
+                                
+                                </tr>
+                                
+                                <tr>
+                                  <td>
+                                    <span>Edge Quality</span>
+                                  </td>
+                                  <td>25cm +- 5</td>
+                                  <td>
+                                    ✅Pass
+                                  </td>
+                                
+                                </tr>
+                                
+                                  
+                              </tbody>
+                            </table>
+                          </div>
                         
-                    </tbody>
-                  </table>
-                </div>
-              
-              <!--/ Bootstrap Table with Header Dark -->
+                        <!--/ Bootstrap Table with Header Dark -->
 
-              <!-- form with add -->
-                <div class="card-body">
-                  <h5>Wastage and Defect</h5>
-                      <form class="form-repeater">
-                        <div data-repeater-list="group-a">
-                          <div data-repeater-item>
-                            <div class="row">
-                              <div class="mb-4 col-lg-6 col-xl-3 col-12 mb-0">
+                        <!-- form with add -->
+                          <div class="card-body">
+                            <h5>Wastage and Defect</h5>
+                                <form class="form-repeater">
+                                  <div data-repeater-list="group-a">
+                                    <div data-repeater-item>
+                                      <div class="row">
+                                        <div class="mb-4 col-lg-6 col-xl-3 col-12 mb-0">
+                                          <div class="form-floating form-floating-outline">
+                                            <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
+                                            <option value="">Process loss</option>
+                                            <option value="Australia">Edge Screen</option>
+                                            <option value="Bangladesh">Cutting scab</option>
+                                            <option value="Belarus">select waste</option>
+                                        
+                                          </select>
+                                            
+                                          </div>
+                                        </div>
+                                        <div class="mb-4 col-lg-6 col-xl-3 col-12 mb-0">
+                                          <div class="form-floating form-floating-outline">
+                                            <input
+                                              type="number"
+                                              value="7"
+                                              id="form-repeater-1-2"
+                                              class="form-control"
+                                              placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+                                            
+                                          </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="col-lg-12 col-xl-2 col-12 d-flex align-items-center mb-0">
+                                          <button class="btn btn-xl btn-outline-danger mb-xl-4" data-repeater-delete>
+                                            <i class="icon-base ri ri-close-line icon-md me-1"></i>
+                                          
+                                          </button>
+                                        </div>
+                                      </div>
+                                      <hr />
+                                    </div>
+                                  </div>
+                                  <div class="mb-0">
+                                    <button class="btn btn-primary" data-repeater-create>
+                                      <i class="icon-base ri ri-add-line me-1"></i>
+                                      <span class="align-middle">Add Wastage</span>
+                                    </button>
+                                  </div>
+                                <!-- </form> -->
+                              </div>
+                        <!-- form with add -->
+
+                                <div class="row g-6">
+                              <div class="col-md-6">
                                 <div class="form-floating form-floating-outline">
-                                  <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
-                                  <option value="">Process loss</option>
-                                  <option value="Australia">Edge Screen</option>
-                                  <option value="Bangladesh">Cutting scab</option>
-                                  <option value="Belarus">select waste</option>
-                              
-                                </select>
+                                  <select id="multicol-language" class="select2 form-select">
+                                    <option value="en" selected>James Smith</option>
+                                    <option value="fr" selected>Mike Ragne</option>
+                                    <option value="de">Same as inspector</option>
+                                    <option value="pt">Portuguese</option>
+                                  </select>
+                                  <label for="multicol-username">QC Inspector</label>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="input-group input-group-merge">
+                                  <div class="form-floating form-floating-outline">
+                                    <textarea
+                                    class="form-control h-px-100"
+                                    id="exampleFormControlTextarea1"
+                                    placeholder="Comments here..."></textarea>
+                                    <label for="multicol-email">QC Remarks</label>
+                                  </div>
                                   
                                 </div>
                               </div>
-                              <div class="mb-4 col-lg-6 col-xl-3 col-12 mb-0">
-                                <div class="form-floating form-floating-outline">
-                                  <input
-                                    type="number"
-                                    value="7"
-                                    id="form-repeater-1-2"
-                                    class="form-control"
-                                    placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
-                                  
+                              <div class="col-md-6">
+                                <div class="form-password-toggle">
+                                  <div class="input-group input-group-merge">
+                                    <div class="form-floating form-floating-outline">
+                                      <select id="multicol-language" class="select2 form-select">
+                                        <option value="en" selected>Approved</option>
+                                        <option value="fr" selected>Rejected</option>
+                                        <option value="de">Hold</option>
+                                        
+                                      </select>
+                                      <label for="multicol-password">QC Status</label>
+                                    </div>
+                                    
+                                  </div>
                                 </div>
                               </div>
                               
-                              
-                              <div class="col-lg-12 col-xl-2 col-12 d-flex align-items-center mb-0">
-                                <button class="btn btn-xl btn-outline-danger mb-xl-4" data-repeater-delete>
-                                  <i class="icon-base ri ri-close-line icon-md me-1"></i>
-                                 
-                                </button>
-                              </div>
                             </div>
-                            <hr />
-                          </div>
-                        </div>
-                        <div class="mb-0">
-                          <button class="btn btn-primary" data-repeater-create>
-                            <i class="icon-base ri ri-add-line me-1"></i>
-                            <span class="align-middle">Add Wastage</span>
-                          </button>
-                        </div>
-                      <!-- </form> -->
-                    </div>
-              <!-- form with add -->
 
-                      <div class="row g-6">
-                    <div class="col-md-6">
-                      <div class="form-floating form-floating-outline">
-                        <select id="multicol-language" class="select2 form-select">
-                          <option value="en" selected>James Smith</option>
-                          <option value="fr" selected>Mike Ragne</option>
-                          <option value="de">Same as inspector</option>
-                          <option value="pt">Portuguese</option>
-                        </select>
-                        <label for="multicol-username">QC Inspector</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="input-group input-group-merge">
-                        <div class="form-floating form-floating-outline">
-                          <textarea
-                          class="form-control h-px-100"
-                          id="exampleFormControlTextarea1"
-                          placeholder="Comments here..."></textarea>
-                          <label for="multicol-email">QC Remarks</label>
-                        </div>
-                        
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-password-toggle">
-                        <div class="input-group input-group-merge">
-                          <div class="form-floating form-floating-outline">
-                            <select id="multicol-language" class="select2 form-select">
-                              <option value="en" selected>Approved</option>
-                              <option value="fr" selected>Rejected</option>
-                              <option value="de">Hold</option>
-                              
-                            </select>
-                            <label for="multicol-password">QC Status</label>
-                          </div>
-                          
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-
-                          <!-- table -->
-                          <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Complete Roll Cutting</button>
-                            
-                          </div>
-                        </form>
-                      </div>
-                      <!-- hereee -->
-                      
+                                    <!-- table -->
+                                    <div class="pt-6">
+                                      <button type="submit" class="btn btn-primary me-4 btn-next">Complete Roll Cutting</button>
+                                      
+                                    </div>
+                                  </form>
+                                </div>
+                                <!-- hereee -->
+                                
 
                       <!-- hereeee -->
                       <!--  -->
@@ -2406,7 +2406,7 @@
 
                           <!-- table -->
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Complete Punching</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Complete Punching</button>
                             
                           </div>
                         </form>
@@ -2520,7 +2520,7 @@
                             
                           </div>
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Add Material</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Add Material</button>
                             
                           </div>
                         </form>
@@ -2724,7 +2724,7 @@
 
                           <!-- table -->
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Complete Embossing</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Complete Embossing</button>
                             
                           </div>
                         </form>
@@ -2928,7 +2928,7 @@
 
                           <!-- table -->
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Complete Lamination</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Complete Lamination</button>
                             
                           </div>
                         </form>
@@ -2947,7 +2947,218 @@
                             <div class="col-md-6">
                               <div class="form-floating form-floating-outline">
                                 <div class="card-body">
-                  <h5>Test Methods</h5>
+                  <h4>Test Methods</h4>
+                      <form class="form-repeater">
+                        <div data-repeater-list="group-a">
+                          <div data-repeater-item>
+                            <div class="row">
+                              <div class="mb-4 col-lg-6 col-xl-5 col-12 mb-0">
+                                <div class="form-floating form-floating-outline">
+                                  <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
+                                    <option value="">ASTM D638 Tensile</option>
+                                    <option value="Australia">Edge Screen</option>
+                                    <option value="Bangladesh">Cutting scab</option>
+                                    <option value="Belarus">select waste</option>
+                                    
+                                  </select>
+                                  <label>Test Method</label>
+                                </div>
+                              </div>
+                              <div class="mb-4 col-lg-6 col-xl-2 col-12 mb-0">
+                                <div class="form-floating form-floating-outline">
+                                  <input
+                                    type="number"
+                                    value="7"
+                                    id="form-repeater-1-2"
+                                    class="form-control"
+                                    placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+                                    <label>Sample size</label>
+                                </div>
+                              </div>
+
+                              <div class="mb-4 col-lg-6 col-xl-5 col-12 mb-0">
+                                <div class="form-floating form-floating-outline">
+                                  <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
+                                    <option value="">Sarah Johnson</option>
+                                    <option value="Australia">Mike Wilson</option>
+                                    <option value="Bangladesh">Lab technician A</option>
+                                    <option value="Belarus">select waste</option>
+                                
+                                  </select>
+                                  <label>Test Operator</label>
+                                </div>
+                              </div>
+                              
+                              
+                              <div class="col-lg-12 col-xl-2 col-12 d-flex align-items-center mb-0">
+                                <button class="btn btn-xl btn-outline-danger mb-xl-4" data-repeater-delete>
+                                  <i class="icon-base ri ri-close-line icon-md me-1"></i>
+                                 
+                                </button>
+                              </div>
+                            </div>
+                            <hr />
+                          </div>
+                        </div>
+                        <div class="mb-0">
+                          <button class="btn btn-primary" data-repeater-create>
+                            <i class="icon-base ri ri-add-line me-1"></i>
+                            <span class="align-middle">Add Test Method</span>
+                          </button>
+                        </div>
+                      <!-- </form> -->
+                    </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-floating form-floating-outline">
+                                <table class="table">
+                                  <h4>Test Results</h4>
+                    <thead class="table-dark">
+                      <tr>
+                        <th>Test Parameter</th>
+                        <th>Standard</th>
+                        <th>Result</th>
+                        <th>Status</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                      <tr>
+                        <td>
+                          <span>Tensile Strength</span>
+                        </td>
+                        <td>2.5N/cm</td>
+                        <td>3.5>/cm</td>
+                        <td>
+                          ✅Pass
+                        </td>
+                       
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span>Elongation</span>
+                        </td>
+                        <td>>2.5cm</td>
+                        <td>3.5>/cm</td>
+                        <td>
+                          ✅Pass
+                        </td>
+                       
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Tear Resistance</span>
+                        </td>
+                        <td>>2.5cm</td>
+                        <td>3.5>/cm</td>
+                        <td>
+                          ✅Pass
+                        </td>
+                       
+                      </tr>
+                      
+                      
+                        
+                    </tbody>
+                  </table>
+                              </div>
+                            </div>
+                       
+                          </div>
+                          <h4>Remarks</h4>
+                          <textarea
+                          class="form-control h-px-100"
+                          id="exampleFormControlTextarea1"
+                          placeholder="Comments here..."></textarea>
+                          <div class="pt-6">
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Complete QC Testing</button>
+                            
+                          </div>
+                        </form>
+                      </div>
+
+
+                      <div class="tab-pane fade" id="form-tabs-step8" role="tabpanel">
+                        <h4>Step 8: Ready to Dispatch</h4>
+                          <div class="alert alert-secondary" role="alert">Ready to Dispatch: Complete final quality inspection before stock transfer</div>
+                          
+                        <form>
+                          <div class="row g-6">
+                            <h5>Inspection Summary</h5>
+                            <div class="col-md-6">
+                              <div class="form-floating form-floating-outline">
+                                <input
+                                  type="text"
+                                  value="232 Pieces"
+                                  id="formtabs-twitter"
+                                  class="form-control"
+                                  placeholder="https://twitter.com/abc" />
+                                <label for="formtabs-twitter">Total Pieces for inspection</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-floating form-floating-outline">
+                                <input
+                                  type="number"
+                                  id="formtabs-facebook"
+                                  class="form-control"
+                                  value="230" />
+                                <label for="formtabs-facebook">Accepted Pieces</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-floating form-floating-outline">
+                                <input
+                                  type="number"
+                                  id="formtabs-google"
+                                  class="form-control"
+                                  value="232" />
+                                <label for="formtabs-google">Pieces Inspected</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-floating form-floating-outline">
+                                <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
+                                    <option value="">Sarah Johnson</option>
+                                    <option value="Australia">Mike Wilson</option>
+                                    <option value="Bangladesh">Lab technician A</option>
+                                    <option value="Belarus">select waste</option>
+                                
+                                  </select>
+                                <label for="formtabs-linkedin">Inspector Name</label>
+                              </div>
+                            </div>
+
+                            <div class="col-md p-6">
+                              <h5>Quality control</h5>
+                              <small>Inspection checklist</small>
+                              <div class="form-check form-check-success">
+                                <input class="form-check-input" type="checkbox" value="" id="customCheckSuccess" checked />
+                                <label class="form-check-label" for="customCheckSuccess">Dimensions within tolerance</label>
+                              </div>
+                              <div class="form-check form-check-success">
+                                <input class="form-check-input" type="checkbox" value="" id="customCheckSuccess" checked />
+                                <label class="form-check-label" for="customCheckSuccess">Surface finish acceptable</label>
+                              </div>
+                              <div class="form-check form-check-success">
+                                <input class="form-check-input" type="checkbox" value="" id="customCheckSuccess" checked />
+                                <label class="form-check-label" for="customCheckSuccess">Color consistency maintained</label>
+                              </div>
+                              <div class="form-check form-check-success">
+                                <input class="form-check-input" type="checkbox" value="" id="customCheckSuccess" checked />
+                                <label class="form-check-label" for="customCheckSuccess">Packaging requirements met</label>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                          <!-- form with add button -->
+
+                          <!-- form with add -->
+                <div class="card-body">
+                  <h5>Rejection Details</h5>
                       <form class="form-repeater">
                         <div data-repeater-list="group-a">
                           <div data-repeater-item>
@@ -2964,7 +3175,7 @@
                                   
                                 </div>
                               </div>
-                              <div class="mb-4 col-lg-6 col-xl-3 col-12 mb-0">
+                              <div class="mb-4 col-lg-6 col-xl-2 col-12 mb-0">
                                 <div class="form-floating form-floating-outline">
                                   <input
                                     type="number"
@@ -2990,149 +3201,67 @@
                         <div class="mb-0">
                           <button class="btn btn-primary" data-repeater-create>
                             <i class="icon-base ri ri-add-line me-1"></i>
-                            <span class="align-middle">Add Defect</span>
+                            <span class="align-middle">Add Rejection Type</span>
                           </button>
                         </div>
                       <!-- </form> -->
                     </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <table class="table">
-                    <thead class="table-dark">
-                      <tr>
-                        <th>Test Parameter</th>
-                        <th>Standard</th>
-                        <th>Result</th>
-                        <th>Status</th>
-                        
-                      </tr>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td>
-                          <span>Bond Strength</span>
-                        </td>
-                        <td>2.5N/cm</td>
-                        <td>3.5>/cm</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
 
-                      <tr>
-                        <td>
-                          <span>Bubble count</span>
-                        </td>
-                        <td>>2.5cm</td>
-                        <td>3.5>/cm</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
-                      <tr>
-                        <td>
-                          <span>Bubble count</span>
-                        </td>
-                        <td>>2.5cm</td>
-                        <td>3.5>/cm</td>
-                        <td>
-                          ✅Pass
-                        </td>
-                       
-                      </tr>
-                      
-                      
-                        
-                    </tbody>
-                  </table>
-                              </div>
-                            </div>
-                       
-                          </div>
-                          <h4>Remarks</h4>
+                    <!-- qc status -->
+                       <div class="row g-6">
+                    <div class="col-md-6">
+                      <div class="form-floating form-floating-outline">
+                        <select id="multicol-language" class="select2 form-select">
+                          <option value="en" selected>James Smith</option>
+                          <option value="fr" selected>Mike Ragne</option>
+                          <option value="de">Same as inspector</option>
+                          <option value="pt">Portuguese</option>
+                        </select>
+                        <label for="multicol-username">QC Inspector</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group input-group-merge">
+                        <div class="form-floating form-floating-outline">
                           <textarea
                           class="form-control h-px-100"
                           id="exampleFormControlTextarea1"
                           placeholder="Comments here..."></textarea>
-                          <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Submit</button>
-                            <button type="reset" class="btn btn-outline-secondary">Cancel</button>
-                          </div>
-                        </form>
+                          <label for="multicol-email">QC Remarks</label>
+                        </div>
+                        
                       </div>
-
-
-                      <div class="tab-pane fade" id="form-tabs-step8" role="tabpanel">
-                        <form>
-                          <div class="row g-6">
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-twitter"
-                                  class="form-control"
-                                  placeholder="https://twitter.com/abc" />
-                                <label for="formtabs-twitter">Twitter</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-facebook"
-                                  class="form-control"
-                                  placeholder="https://facebook.com/abc" />
-                                <label for="formtabs-facebook">Facebook</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-google"
-                                  class="form-control"
-                                  placeholder="https://plus.google.com/abc" />
-                                <label for="formtabs-google">Google+</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-linkedin"
-                                  class="form-control"
-                                  placeholder="https://linkedin.com/abc" />
-                                <label for="formtabs-linkedin">Linkedin</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-instagram"
-                                  class="form-control"
-                                  placeholder="https://instagram.com/abc" />
-                                <label for="formtabs-instagram">Instagram</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-floating form-floating-outline">
-                                <input
-                                  type="text"
-                                  id="formtabs-quora"
-                                  class="form-control"
-                                  placeholder="https://quora.com/abc" />
-                                <label for="formtabs-quora">Quora</label>
-                              </div>
-                            </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-password-toggle">
+                        <div class="input-group input-group-merge">
+                          <div class="form-floating form-floating-outline">
+                            <select id="multicol-language" class="select2 form-select">
+                              <option value="en" selected>Approved</option>
+                              <option value="fr" selected>Rejected</option>
+                              <option value="de">Hold</option>
+                              
+                            </select>
+                            <label for="multicol-password">QC Status</label>
                           </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <h5>Inspector Remarks</h5>
+                          <textarea
+                          class="form-control h-px-100"
+                          id="exampleFormControlTextarea1"
+                          placeholder="Comments here..."></textarea>
+
+                      <div class="row g-6">
+
+                        
                           <div class="pt-6">
-                            <button type="submit" class="btn btn-primary me-4">Submit</button>
-                            <button type="reset" class="btn btn-outline-secondary">Cancel</button>
+                            <button type="submit" class="btn btn-primary me-4 btn-next">Complete Ready and Dispatch</button>
+                            
                           </div>
                         </form>
                       </div>
@@ -3237,5 +3366,24 @@
 
     <!-- Page JS -->
     <script src="../../assets/js/dashboards-analytics.js"></script>
+
+    <!-- Tab Switcher JS -->
+     <script>
+        document.querySelectorAll('.btn-next').forEach(button => {
+          button.addEventListener('click', () => {
+              // 1. Find the currently active tab link
+              const activeTabEl = document.querySelector('#nav-tabs .active');
+              
+              // 2. Find the next sibling in the list
+              const nextTabEl = activeTabEl.parentElement.nextElementSibling?.querySelector('[data-bs-toggle="tab"]');
+              
+              if (nextTabEl) {
+                  // 3. Initialize the Bootstrap Tab instance and show it
+                  const tab = new bootstrap.Tab(nextTabEl);
+                  tab.show();
+              }
+          });
+      });
+     </script>
   </body>
 </html>
